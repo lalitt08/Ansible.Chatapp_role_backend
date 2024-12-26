@@ -1,7 +1,7 @@
 galaxy_info:
-  author: lalit sangore
-  description: Ansible role for managing Backend 
-  company: YourCompany
+  author: Lalit
+  description: Backend role
+  company: Company 
   license: MIT
   min_ansible_version: 2.9
   platforms:
@@ -9,8 +9,10 @@ galaxy_info:
       versions:
         - bionic
         - focal
-  categories:
+    - name: EL
+      versions:
+        - "7"
+        - "8"
+  galaxy_tags:
     - web
-    - backend
-
-dependencies: []
+    - server
