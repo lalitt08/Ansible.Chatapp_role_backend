@@ -1,0 +1,9 @@
+---
+# roles/backend/vars/main.yml
+db_namee: "chatappdb"
+db_userr: "admin"
+db_passwordd: "admin123"
+db_hostt: "mydbinstance.c7cmiq48y5fd.us-east-2.rds.amazonaws.com"
+db_portt: "3306"
+
+# vars file for backend
